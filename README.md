@@ -1,3 +1,51 @@
+# React Login Page
+
+A simple React login page implementation with mock authentication.
+
+## Features
+
+- Clean, modern UI
+- Form validation
+- Mock authentication
+- Responsive design
+
+## Mock User Credentials
+
+- Email: admin@gmail.com
+- Password: password123
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm start
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Project Structure
+
+- `src/components/LoginPage.js` - The main login component
+- `src/App.js` - The root component that renders LoginPage
+- `src/App.css` - Styling for the entire application
+
+## Technologies Used
+
+- React.js
+- CSS
+- JavaScript (ES6+)
+
+## Future Enhancements
+
+- Implement actual authentication with JWT
+- Add form validation using Formik or React Hook Form
+- Add password strength indicator
+- Implement "Remember me" functionality using local storage
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
