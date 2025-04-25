@@ -7,11 +7,14 @@ const Home = () => {
   const { currentUser } = useAuth();
   const today = new Date();
   const formattedDate = today.toLocaleDateString('en-US', { 
-    weekday: 'long', 
-    year: 'numeric', 
     month: 'long', 
     day: 'numeric' 
   });
+
+  // Custom description for homepage
+  const getDescription = () => {
+    return 'A lot of different packages to choose from and affordable!';
+  };
 
   // Role-specific welcome messages
   const getRoleMessage = () => {
@@ -39,8 +42,8 @@ const Home = () => {
           <div className="date-display">Today, {formattedDate}</div>
           <div className="hero-content">
             <div className="hero-text">
-              <h2 className="hero-title">Welcome to SuperSeven Studio</h2>
-              <p className="hero-description">{getRoleMessage()}</p>
+              <h2 className="hero-title">Crafting Superb Moments with SuperSeven Studio</h2>
+              <p className="hero-description">{getDescription()}</p>
               <button className="view-packages-btn">View Packages</button>
             </div>
           </div>
