@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import '../css/LoginPage.css';
 
 const Unauthorized = () => {
   const navigate = useNavigate();
@@ -30,12 +31,14 @@ const Unauthorized = () => {
   };
 
   return (
-    <div className="unauthorized-container">
-      <h1>Access Denied</h1>
-      <p>You do not have permission to access this page.</p>
-      <button onClick={goBack} className="back-button">
-        Return to Dashboard
-      </button>
+    <div className="login-page">
+      <div className="unauthorized-container">
+        <h1>Access Denied</h1>
+        <p>You do not have permission to access this page.</p>
+        <button onClick={goBack} className="back-button">
+          Return to Dashboard
+        </button>
+      </div>
     </div>
   );
 };
