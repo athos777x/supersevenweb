@@ -158,21 +158,28 @@
   color: #333;
 }
 
+.gallery-footer {
+  padding: 0 0 10px 0;
+}
+
 .view-more-btn {
-  background-color: transparent;
-  color: #009c77;
+  background-color: #009c77;
+  color: white;
   border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
   font-size: 14px;
-  padding: 0 15px 15px;
-  text-align: left;
   cursor: pointer;
-  font-weight: 500;
-  width: 100%;
-  text-align: center;
+  transition: background-color 0.3s;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+  display: inline-block;
+  width: auto;
 }
 
 .view-more-btn:hover {
-  text-decoration: underline;
+  background-color: #007a5e;
 }
 
 /* Responsive */

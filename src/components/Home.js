@@ -59,19 +59,25 @@ const Home = () => {
           <div className="gallery-item">
             <div className="gallery-image wedding-image"></div>
             <h3 className="gallery-title">Kai and Patrick Wedding</h3>
-            <button className="view-more-btn">View More</button>
+            <div className="gallery-footer">
+              <button className="view-more-btn">View More</button>
+            </div>
           </div>
 
           <div className="gallery-item">
             <div className="gallery-image prenup-image"></div>
             <h3 className="gallery-title">Harold and Lonie Prenup</h3>
-            <button className="view-more-btn">View More</button>
+            <div className="gallery-footer">
+              <button className="view-more-btn">View More</button>
+            </div>
           </div>
 
           <div className="gallery-item">
             <div className="gallery-image birthday-image"></div>
             <h3 className="gallery-title">José Marie's Birthday</h3>
-            <button className="view-more-btn">View More</button>
+            <div className="gallery-footer">
+              <button className="view-more-btn">View More</button>
+            </div>
           </div>
         </div>
       </div>
