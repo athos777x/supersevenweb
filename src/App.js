@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
-import LoginPage from './components/LoginPage';
-import Home from './components/Home';
+import LoginPage from './pages/LoginPage';
+import Home from './pages/Home';
 import Unauthorized from './components/Unauthorized';
-import ProtectedRoute from './components/ProtectedRoute';
+import ProtectedRoute from './routes/ProtectedRoute';
 import { AuthProvider } from './contexts/AuthContext';
 
 function App() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from './Layout';
+import Layout from '../components/Layout';
 import { useAuth } from '../contexts/AuthContext';
 import '../css/Home.css';
 
